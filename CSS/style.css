@@ -20,6 +20,7 @@ h1 {
     color: #66bfbf;
     position: relative;
     right: 50px;
+    width: 35%;
 }
 .text-2 {
     margin-top: 0;
@@ -27,6 +28,8 @@ h1 {
     margin-bottom: 10px;
     font-family: 'Montaga', serif;
     color: #66bfbf;
+    width: 15%;
+    margin: auto;
 }
 .cloud-top {
     position: relative;
@@ -56,7 +59,7 @@ h1 {
 .intro{
     width: 40%;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 h2{
     font-size: 42px;
@@ -76,7 +79,7 @@ p{
     line-height: 2;
     font-family: "Merriweather", serif;
     color: #40514e;
-    font-size: 21px;
+    font-size: 23px;
 }
 hr{
     margin: 150px auto;
@@ -86,7 +89,7 @@ hr{
     border-width: 8px 0 0;
     border-color: grey;
 }
-.skill-row1{
+/*.skill-row1{
     text-align: left;
     margin: auto;
     margin-left: 400px;
@@ -107,6 +110,32 @@ hr{
     width: 350px;
     height: 200px;
     right: 30px;
+}*/
+.skills{
+    text-align: center;
+}
+.skill-row1{
+    width: 60%;
+    text-align: left;
+    margin: 50px auto 50px 30px;
+    margin-bottom: 120px;
+}
+.code{
+    float: left;
+    width: 42%;
+    height: 210px;
+    margin-right: 30px;
+}
+.skill-row2{
+    width: 60%;
+    text-align: right;
+    margin: auto 30px 100px auto;
+}
+.anime{
+    float: right;
+    width: 45%;
+    height: 20%;
+    margin-left: 30px;
 }
 .contact-me{
     height: min-content;
@@ -124,6 +153,7 @@ hr{
     border-radius: 8px;
     border-color: black;
     font-size: 1.5625rem;
+    width: 12%;
     margin: 1.875rem auto 5rem;
     text-decoration: none;
 }
@@ -153,4 +183,6 @@ hr{
 .copyright{
     color: white;
     font-size: 14px;
+    width: 15%;
+    margin: 40px auto 14px;
 }
